@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,400;1,500&family=Rubik:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,300;0,900;1,400;1,500&family=Rubik:ital,wght@1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/Jamtara-Sabka-Number-Aayega-Season-2-Trailer.jpg)no-repeat 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.head{
+    display: flex;
+}
+.logo h1{
+    color: red;
+    margin: 19px 28px;
+}
+.nav{
+    padding: 25px 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 110px;
+}
+.nav ul li{
+    padding: 0 20px;
+    cursor: pointer;
+    
+}
+.nav li:hover{
+    color: red;
+    font-weight: bolder;
+}
+.icons li{
+    padding: 0 7px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: red;
+    font-weight: bolder;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 52px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.series{
+    display: flex;
+}
+.series h2{
+    padding: 14px 8px;
+}
+.series h1{
+    color: red;
+    font-size: 48px;
+}
+.main h1{
+    font-size: 100px;
+}
+.main h2{
+    font-size: 39px;
+}
+.para{
+    padding: 13px;
+}
+.btn{
+    padding: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+.button{
+    padding: 9px 18px;
+    border-radius: 2px;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.button i{
+    padding: 0 7px;
+}
+.buttonn{
+   background-color: rgb(45,45,45);
+    padding: 9px 30px;
+    color: white;
+    border: 1px solid rgb(45,45,45);
+    cursor: pointer;
+    border-radius: 2px;
+}
+.buttonn i{
+    padding: 0 7px;
+    
+}
+.buttonn:hover{
+    background:black;
+    font-weight: bolder;
+}
+.button:hover{
+    background:white;
+    font-weight: bolder;
+
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    color:white
+}
+.picture{
+    padding: 18px 43px;
+    display: flex;
+    list-style: none;
+}
+.picture li{
+    padding: 0 10px;
+}
+.picture img{
+    height: 274px;
+    width: 220px;
+}
+.upper h1{
+    padding: 3px 67px;
+}
